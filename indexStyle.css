@@ -1,0 +1,52 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 200%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .topnavbar {
+        background-color: #f2f1e9;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .topnavbar li {
+        float: right;
+    }
+
+    .topnavbar li a {
+        display: block;
+        text-decoration: none;
+        padding: 5px 16px;
+        text-align: center;
+        color: darkslategrey;
+    }
+
+    .topnavbar li a:hover {
+        background-color: #E5E4E2;
+    }
+
+    #handle {
+        padding: 5px;
+        float: left;
+        text-align: center;
+    }
+
+}
