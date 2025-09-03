@@ -44,6 +44,7 @@ body {
         background-color: #E5E4E2;
     }
 
+
     #handle {
         margin-left: 8%;
         font-size: 30px;
@@ -97,5 +98,35 @@ body {
         bottom: 0;
         border-radius: 20px 20px 0 0;
     }
+
+    #content .container {
+        left: 0;
+        right: 0;
+    }
+
+    #content .container * {
+        position: absolute;
+        align-items: center;
+    }
+
+    .partTitle {
+        font-size: 50px;
+        padding-bottom: 5px;
+        top: 30px;
+        left: 350px;
+        right: 350px;
+        text-align: center;
+        color: rgb(77, 77, 77);
+        border-bottom-width: 2px;
+        border-bottom: 3px rgb(202, 202, 202) solid;
+    }
+
+    #profile {}
+
+    #educationAndAchievements {}
+
+    #skills {}
+
+    #experience {}
 
 }
