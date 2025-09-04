@@ -38,6 +38,7 @@ body {
         text-decoration: none;
         padding: 8px 18px;
         color: darkslategrey;
+        transition: 0.3s;
     }
 
     .topnavbar li a:hover {
@@ -95,7 +96,7 @@ body {
         left: 0;
         right: 0;
         top: 450px;
-        bottom: 0;
+        height: 100%;
         border-radius: 20px 20px 0 0;
     }
 
@@ -126,9 +127,10 @@ body {
     #profileText {
         line-height: 30px;
         font-size: 25px;
+        min-height: 250px;
         min-width: 400px;
         max-width: 500px;
-        height: 40%;
+        height: 25vh;
         display: flex;
         align-items: center;
         left: 50%;
@@ -137,7 +139,8 @@ body {
     }
 
     #profileImg1 {
-        height: 40%;
+        height: 25vh;
+        min-height: 250px;
         top: 150px;
         border-radius: 20px;
         left: 50%;
