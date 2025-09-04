@@ -12,7 +12,7 @@ body {
 @media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 861px) {
     .topnavbar {
         background-color: #f2f1e9;
         z-index: 100;
@@ -95,6 +95,7 @@ body {
         background-color: white;
         left: 0;
         right: 0;
+        overflow: hidden;
         top: 450px;
         height: 100%;
         border-radius: 20px 20px 0 0;
@@ -136,7 +137,7 @@ body {
         top: 150px;
     }
 
-    #profileImg1 {
+    #profile img {
         height: 250px;
         top: 150px;
         border-radius: 20px;
@@ -145,25 +146,119 @@ body {
     }
 
     #educationAndAchievements {
-        display: flex;
         position: absolute;
-        margin-left: 10vw;
         top: 450px;
-        margin-right: 10vw;
-        background-color: aqua;
-        height: 100px;
     }
 
-    #sanmar {
-        background-color: aqua;
-        height: 100px;
-        width: 100px;
+    #sanmar {}
+
+    #sanmar img {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 50vw;
+        object-fit: cover;
+        border-radius: 30px;
+        transform: translate(-120%);
+        transition: 0.5s ease-out;
+        border-style: solid;
+        border-width: 2px;
     }
 
-    #untar {
-        background-color: aquamarine;
-        height: 100px;
-        width: 100px;
+    #sanmar img:hover {
+        width: 320px;
+        height: 320px;
+        padding: 10px;
+        border-style: dashed;
+        border-color: #FFFFFF;
+    }
+
+    #sanmar #bg {
+        height: 0px;
+        width: 850px;
+        transform: translateX(-50%);
+        transition: 0.5s;
+        top: 150px;
+        left: 50vw;
+        z-index: -1;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+    }
+
+    #sanmar img:hover+#bg {
+        background-color: #000000;
+        height: 362px;
+        width: 850px;
+        left: 50vw;
+        top: 170px;
+        transform: translate(-50%, -181px);
+    }
+
+    #sanmar #textStuff {
+        display: flex;
+        opacity: 0;
+        justify-content: center;
+        align-items: center;
+        left: 50vw;
+        width: 50vw;
+        height: 320px;
+        transition: .5s;
+        height: 300px;
+        min-width: 400px;
+        max-width: 500px;
+        transform: translateX(-40px);
+        border-left: solid white 1px;
+    }
+
+    #sanmar img:hover~#textStuff {
+        border-left: solid white 1px;
+        height: 340px;
+        color: #FFFFFF;
+        opacity: 100%;
+    }
+
+    #untar {}
+
+    #untar img {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 50vw;
+        top: 400px;
+        border-width: 2px;
+        border-style: solid;
+        object-fit: cover;
+        border-radius: 30px;
+        transform: translate(20%, 0);
+        transition: 0.5s ease-out;
+    }
+
+    #untar img:hover {
+        width: 320px;
+        height: 320px;
+        padding: 10px;
+        border-width: 2px;
+        border-style: dashed;
+    }
+
+    #untar #textStuff {
+        display: flex;
+        opacity: 100%;
+        background-color: aqua;
+        /*Change to none*/
+        /*Change to 0*/
+        justify-content: center;
+        align-items: center;
+        top: 400px;
+        left: 50vw;
+        width: 50vw;
+        height: 320px;
+        transition: .5s;
+        height: 300px;
+        min-width: 400px;
+        max-width: 500px;
+        transform: translateX(-90%);
+        border-left: solid white 1px;
     }
 
     #skills {}
