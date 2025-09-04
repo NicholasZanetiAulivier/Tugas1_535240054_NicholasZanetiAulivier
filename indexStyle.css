@@ -113,8 +113,8 @@ body {
         font-size: 50px;
         padding-bottom: 5px;
         top: 30px;
-        left: 350px;
-        right: 350px;
+        left: 35%;
+        right: 35%;
         text-align: center;
         color: rgb(77, 77, 77);
         border-bottom-width: 2px;
@@ -122,6 +122,27 @@ body {
     }
 
     #profile {}
+
+    #profileText {
+        line-height: 30px;
+        font-size: 25px;
+        min-width: 400px;
+        max-width: 500px;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        right: 25%;
+        top: 150px;
+    }
+
+    #profileImg1 {
+        height: 40%;
+        top: 150px;
+        border-radius: 20px;
+        left: 50%;
+        transform: translate(-135%, 0);
+    }
 
     #educationAndAchievements {}
 
