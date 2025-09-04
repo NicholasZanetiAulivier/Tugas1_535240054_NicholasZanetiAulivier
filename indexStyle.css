@@ -107,7 +107,6 @@ body {
 
     #content .container * {
         position: absolute;
-        align-items: center;
     }
 
     .partTitle {
@@ -127,10 +126,9 @@ body {
     #profileText {
         line-height: 30px;
         font-size: 25px;
-        min-height: 250px;
+        height: 250px;
         min-width: 400px;
         max-width: 500px;
-        height: 25vh;
         display: flex;
         align-items: center;
         left: 50%;
@@ -139,15 +137,34 @@ body {
     }
 
     #profileImg1 {
-        height: 25vh;
-        min-height: 250px;
+        height: 250px;
         top: 150px;
         border-radius: 20px;
         left: 50%;
         transform: translate(-135%, 0);
     }
 
-    #educationAndAchievements {}
+    #educationAndAchievements {
+        display: flex;
+        position: absolute;
+        margin-left: 10vw;
+        top: 450px;
+        margin-right: 10vw;
+        background-color: aqua;
+        height: 100px;
+    }
+
+    #sanmar {
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+    }
+
+    #untar {
+        background-color: aquamarine;
+        height: 100px;
+        width: 100px;
+    }
 
     #skills {}
 
