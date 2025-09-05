@@ -379,7 +379,8 @@ body {
         border-radius: 20px;
     }
 
-    #experience .lists li iframe {
+    #experience .lists li iframe,
+    #experience .lists li img {
         width: 380px;
         height: 300px;
         left: 10px;
@@ -391,10 +392,12 @@ body {
         transform: translateX(-115%);
     }
 
-    #experience .lists .item1 a {
+    #experience .lists .item1 a,
+    #experience .lists .item2 h1 {
         top: 400px;
         left: 0;
         right: 0;
+        margin: 0;
         text-align: center;
         font-weight: bold;
         font-size: 40px;
@@ -402,7 +405,8 @@ body {
         color: #000000;
     }
 
-    #experience .lists .item1 span {
+    #experience .lists .item1 span,
+    #experience .lists .item2 span {
         top: 500px;
         left: 0;
         right: 0;
