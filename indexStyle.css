@@ -288,12 +288,59 @@ body {
     #skills {
         background-color: rgb(0, 49, 114);
         margin-top: 1250px;
-        height: 100%;
+        height: 200%;
+    }
+
+    #skills * {
+        z-index: 10;
     }
 
     #skills .partTitle {
         top: 1300px;
         color: #FFFFFF;
+    }
+
+    .skillList {
+        position: flex;
+        width: fit-content;
+        height: fit-content;
+        list-style-type: none;
+        left: 50vw;
+        right: 0;
+        justify-content: center;
+        margin-top: 170px;
+    }
+
+    .skillList li {
+        position: relative;
+
+    }
+
+    .skillList li img {
+        width: 500px;
+        transform: translateX(-110%);
+        border-radius: 30px;
+    }
+
+    .skillList li div {
+        height: 370px;
+        width: 480px;
+    }
+
+    .skillList li div .listTitle {
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-bottom: #A7A7A7 3px solid;
+    }
+
+    .skillList li div .listSubtitle {
+        height: 300px;
+        font-size: 35px;
+        font-family: sans-serif monospace;
+        color: #FFFFFF;
+        top: 70px;
     }
 
     #experience {}
