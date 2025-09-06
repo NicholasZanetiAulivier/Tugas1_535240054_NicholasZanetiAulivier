@@ -29,7 +29,7 @@ body {
     float: left;
 }
 
-.topnavbar li a {
+.topnavbar li * {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -37,11 +37,14 @@ body {
     text-decoration: none;
     padding: 8px 18px;
     color: darkslategrey;
-    transition: 0.3s;
 }
 
 .topnavbar li a:hover {
     background-color: #E5E4E2;
+}
+
+#dropdown {
+    display: none;
 }
 
 
@@ -281,7 +284,6 @@ body {
     width: 850px;
     left: 50vw;
     top: 570px;
-    /*+20*/
     transform: translate(-50%, -181px);
 }
 

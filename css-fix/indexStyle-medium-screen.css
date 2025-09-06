@@ -1,5 +1,5 @@
 /*Navigation bar fix*/
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 918px) {
     .topnavbar li a {
         font-size: 20px;
         padding: 11px 18px;
@@ -60,4 +60,113 @@
         top: 250px;
         left: 50%;
     }
+}
+
+/*Navbar disappear (probably should add a dropdown menu)*/
+/*education fixes*/
+@media only screen and (max-width: 844px) {
+    .topnavbar li a {
+        display: none;
+    }
+
+    .transparent {
+        opacity: 100%;
+    }
+
+    #sanmar #bg {
+        height: 362px;
+        width: 740px;
+        left: 50vw;
+        top: 170px;
+        transform: translate(-50%, -181px);
+    }
+
+    #sanmar img {
+        transform: translate(-115%, 5.5%);
+        border: #FFFFFF dashed 2px;
+    }
+
+    #sanmar img:hover {
+        width: 300px;
+        height: 300px;
+        padding: 0;
+    }
+
+    #sanmar #textStuff {
+        display: flex;
+        border-width: 0;
+        height: 340px;
+        color: #FFFFFF;
+        opacity: 100%;
+        border-width: 0;
+    }
+
+    #sanmar img:hover~#textStuff {
+        border-width: 0;
+    }
+
+    #sanmar #textStuff .captioner {
+        margin: 0;
+        top: 20px;
+        color: #FFFFFF;
+    }
+
+    #sanmar img:hover~#textStuff .captioner {
+        top: 20px;
+    }
+
+
+    #sanmar img:hover+#bg {
+        width: 740px;
+    }
+
+    #untar #bg {
+        height: 362px;
+        width: 740px;
+        top: 570px;
+        transform: translate(-50%, -181px);
+    }
+
+    #untar img {
+        top: 400px;
+        border: #FFFFFF dashed 2px;
+        transform: translate(13%, 5.5%);
+    }
+
+    #untar img:hover {
+        width: 300px;
+        height: 300px;
+        padding: 0;
+    }
+
+    #untar #textStuff {
+        display: flex;
+        border-width: 0;
+        height: 340px;
+        color: #FFFFFF;
+        opacity: 100%;
+        border-width: 0;
+        transform: translateX(-90%);
+    }
+
+    #uuntar img:hover~#textStuff {
+        border-width: 0;
+    }
+
+    #untar #textStuff .captioner {
+        margin: 0;
+        top: 20px;
+        color: #FFFFFF;
+    }
+
+    #untar img:hover~#textStuff .captioner {
+        top: 20px;
+    }
+
+    #untar img:hover+#bg {
+        width: 740px;
+    }
+
+
+
 }
