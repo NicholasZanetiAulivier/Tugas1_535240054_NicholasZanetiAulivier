@@ -129,8 +129,7 @@ body {
     line-height: 30px;
     font-size: 25px;
     height: 250px;
-    min-width: 400px;
-    max-width: 500px;
+    width: 400px;
     display: flex;
     align-items: center;
     left: 50%;
