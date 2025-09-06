@@ -1,0 +1,63 @@
+/*Navigation bar fix*/
+@media only screen and (max-width: 915px) {
+    .topnavbar li a {
+        font-size: 20px;
+        padding: 11px 18px;
+    }
+}
+
+/*Experience & skills fix*/
+@media only screen and (max-width: 910px) {
+    #skills .lists li div {
+        width: 43vw;
+    }
+
+    #experience {
+        height: 1090px;
+    }
+
+    #contacts {
+        top: 4070px;
+    }
+
+    #experience .lists {
+        left: 50%;
+        margin-top: 170px;
+    }
+
+    #experience .lists li {
+        width: 800px;
+        height: 400px;
+    }
+
+    #experience .lists li iframe,
+    #experience .lists li img {
+        width: 380px;
+        height: 380px;
+        left: 10px;
+        top: 8px;
+        border: #000000 1px solid;
+        border-radius: 20px;
+    }
+
+    #experience .lists .item1,
+    #experience .lists .item2 {
+        transform: translateX(-430px);
+    }
+
+    #experience .lists .item2 {
+        transform: translate(-430px, 450px);
+    }
+
+    #experience .lists .item1 a,
+    #experience .lists .item2 h1 {
+        top: 40%;
+        left: 390px;
+    }
+
+    #experience .lists .item1 span,
+    #experience .lists .item2 span {
+        top: 250px;
+        left: 50%;
+    }
+}

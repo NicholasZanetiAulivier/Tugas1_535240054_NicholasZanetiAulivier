@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,9 +11,6 @@ body {
     overflow-y: unset;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 .topnavbar {
     background-color: #f2f1e9;
@@ -94,7 +95,7 @@ html {
     left: 0;
     right: 0;
     top: 450px;
-    height: 120%;
+    height: 1250px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -111,16 +112,15 @@ html {
     font-size: 50px;
     padding-bottom: 5px;
     top: 30px;
-    left: 35%;
-    right: 35%;
+    width: 350px;
+    left: 50vw;
+    transform: translateX(-50%);
     text-align: center;
     font-weight: bold;
     color: rgb(77, 77, 77);
     border-bottom-width: 2px;
     border-bottom: 3px rgb(202, 202, 202) solid;
 }
-
-#profile {}
 
 #profileText {
     line-height: 30px;
@@ -155,8 +155,6 @@ html {
     top: 0px;
     color: #000000;
 }
-
-#sanmar {}
 
 #sanmar img {
     position: absolute;
@@ -242,8 +240,6 @@ html {
 #sanmar img:hover~#textStuff .transparent {
     opacity: 100%;
 }
-
-#untar {}
 
 #untar img {
     position: absolute;
@@ -366,8 +362,7 @@ html {
 }
 
 #skills .lists li div {
-    height: 370px;
-    width: 480px;
+    width: 400px;
 }
 
 #skills .lists li div .listTitle {
@@ -380,7 +375,6 @@ html {
 }
 
 #skills .lists li div .listSubtitle {
-    height: 300px;
     font-size: 24px;
     font-family: sans-serif monospace;
     color: #FFFFFF;
