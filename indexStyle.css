@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    min-width: 700px;
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,6 +64,7 @@ body {
     color: #FFFFFF;
     display: flex;
     height: 500px;
+    min-width: 700px;
     top: 45px;
     left: 0;
     right: 0;
@@ -99,12 +101,14 @@ body {
     right: 0;
     top: 450px;
     height: 1250px;
+    min-width: 700px;
     border-radius: 20px 20px 0 0;
 }
 
 #content .container {
     left: 0;
     right: 0;
+    min-width: 700px;
 }
 
 #content .container * {
@@ -116,7 +120,7 @@ body {
     padding-bottom: 5px;
     top: 30px;
     width: 350px;
-    left: 50vw;
+    left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-weight: bold;
@@ -345,7 +349,7 @@ body {
 #skills .lists {
     position: flex;
     list-style-type: none;
-    left: 50vw;
+    left: 50%;
     right: 0;
     justify-content: center;
     margin-top: 170px;
@@ -479,6 +483,7 @@ body {
     position: absolute;
     background-color: #424242;
     color: #FFFFFF;
+    min-width: 700px;
     top: 3850px;
     left: 0;
     right: 0;

@@ -339,7 +339,8 @@
 /*Just enable Desktop Site*/
 /*It'll be boring af if everything is arranged vertically*/
 /*let my face be there*/
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 700px) {
+
     body {
         overflow-x: scroll;
     }
