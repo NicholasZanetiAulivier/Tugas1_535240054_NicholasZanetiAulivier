@@ -334,14 +334,155 @@
     }
 }
 
-/*Look man, by this point you can just scroll the screen*/
-/*how thin is your phone :'(  */
-/*Just enable Desktop Site*/
-/*It'll be boring af if everything is arranged vertically*/
-/*let my face be there*/
-@media only screen and (max-width: 700px) {
-
-    body {
-        overflow-x: scroll;
+/*Gonna fix this*/
+@media only screen and (max-width: 600px) {
+    #handle {
+        font-size: 7vw;
     }
+
+    #bannerName {
+        font-size: 9vw;
+    }
+
+    #bannerWelcome {
+        font-size: 5vw;
+    }
+
+    #banner {
+        height: 70vw;
+    }
+
+    #content {
+        top: 70vw;
+    }
+
+    .partTitle {
+        font-size: 10vw;
+        width: 60vw;
+    }
+
+    #profile img {
+        width: 60vw;
+        top: 25vw;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #profileText {
+        top: 25vw;
+        font-size: 4vw;
+        line-height: 6vw;
+        width: 58vw;
+        height: 55.6vw;
+        padding-left: 2vw;
+        left: 50%;
+        border-radius: 20px;
+        transform: translate(-50%, 0.5%);
+        color: #FFFFFF;
+        background-color: rgba(1, 1, 1, 0.5);
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    #profileText:hover {
+        opacity: 100%;
+    }
+
+    #educationAndAchievements {
+        top: 90vw;
+    }
+
+    #sanmar #textStuff .item1,
+    #sanmar #textStuff .item2,
+    #sanmar #textStuff .item3,
+    #sanmar #textStuff .captioner,
+    #untar #textStuff .item1,
+    #untar #textStuff .item2,
+    #untar #textStuff .item3,
+    #untar #textStuff .captioner {
+        font-size: 6vw;
+    }
+
+    #sanmar #bg {
+        height: 136vw;
+        width: 74vw;
+    }
+
+    #sanmar img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #sanmar img:hover {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #sanmar #textStuff {
+        transform: translate(-50%, 64vw);
+        height: 68vw;
+    }
+
+    #sanmar #textStuff .captioner {
+        top: 5vw;
+    }
+
+    #sanmar img:hover~#textStuff .captioner {
+        top: 5vw;
+        font-size: 6vw;
+    }
+
+    #sanmar img:hover~#textStuff {
+        height: 68vw;
+    }
+
+    #sanmar img:hover+#bg {
+        height: 136vw;
+        width: 74vw;
+    }
+
+    #untar #bg {
+        height: 136vw;
+        width: 74vw;
+    }
+
+    #untar {
+        transform: translateY(68vw);
+    }
+
+    #untar img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #untar img:hover {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #untar #textStuff {
+        transform: translate(-50%, 64vw);
+        height: 68vw;
+    }
+
+    #untar img:hover~#textStuff {
+        height: 68vw;
+    }
+
+
+    #untar #textStuff .captioner {
+        top: 5vw;
+    }
+
+    #untar img:hover~#textStuff .captioner {
+        top: 5vw;
+        font-size: 6vw;
+    }
+
+    #untar img:hover+#bg {
+        height: 136vw;
+        width: 74vw;
+    }
+
 }

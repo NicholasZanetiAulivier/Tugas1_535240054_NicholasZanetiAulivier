@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    min-width: 700px;
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,7 +63,6 @@ body {
     color: #FFFFFF;
     display: flex;
     height: 500px;
-    min-width: 700px;
     top: 45px;
     left: 0;
     right: 0;
@@ -101,14 +99,12 @@ body {
     right: 0;
     top: 450px;
     height: 1250px;
-    min-width: 700px;
     border-radius: 20px 20px 0 0;
 }
 
 #content .container {
     left: 0;
     right: 0;
-    min-width: 700px;
 }
 
 #content .container * {
@@ -224,6 +220,24 @@ body {
     transition-timing-function: ease-out;
 }
 
+#sanmar #textStuff .item1 {
+    font-size: 30px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+#sanmar #textStuff .item2 {
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(50%);
+}
+
+#sanmar #textStuff .item3 {
+    font-size: 30px;
+    font-weight: 900;
+    bottom: 20px;
+}
+
 .transparent {
     opacity: 0;
 }
@@ -303,6 +317,25 @@ body {
     max-width: 500px;
     transform: translateX(-100%);
     border-right: solid white 1px;
+}
+
+#untar #textStuff .item1 {
+    font-size: 30px;
+    font-weight: bold;
+    transform: translateY(-50%)
+}
+
+#untar #textStuff .item2 {
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(50%);
+}
+
+#untar #textStuff .item3 {
+    font-size: 25px;
+    font-weight: 900;
+    bottom: 20px;
+    text-align: center;
 }
 
 #untar #textStuff .captioner {
@@ -483,7 +516,6 @@ body {
     position: absolute;
     background-color: #424242;
     color: #FFFFFF;
-    min-width: 700px;
     top: 3850px;
     left: 0;
     right: 0;
