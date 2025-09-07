@@ -35,8 +35,7 @@
         top: 8px;
     }
 
-    #experience .lists .item1,
-    #experience .lists .item2 {
+    #experience .lists .item1 {
         transform: translateX(-430px);
     }
 
@@ -225,8 +224,7 @@
         top: 8px;
     }
 
-    #experience .lists .item1,
-    #experience .lists .item2 {
+    #experience .lists .item1 {
         transform: translateX(-60%);
     }
 

@@ -323,7 +323,7 @@
     }
 }
 
-/*Height fixes. I shouldve used normal divs instead of playing absolute position*/
+/*Height fixes. I shouldve used relative instead of playing absolute position*/
 @media only screen and (max-width: 350px) {
     #experience {
         top: 410vw;
