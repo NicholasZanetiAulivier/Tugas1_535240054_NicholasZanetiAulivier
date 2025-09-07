@@ -11,6 +11,10 @@ body {
     overflow-y: unset;
 }
 
+body h3 {
+    opacity: 0;
+    position: fixed;
+}
 
 .topnavbar {
     background-color: #f2f1e9;

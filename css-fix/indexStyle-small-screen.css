@@ -238,3 +238,18 @@
     }
 
 }
+
+/*This should be uncommon in 2025. Hopefully they can just enable desktop site*/
+@media only screen and (max-width: 399px) {
+
+    body div,
+    body ul {
+        opacity: 0;
+    }
+
+    body h3 {
+        color: #000000;
+        opacity: 100%;
+        z-index: 1000;
+    }
+}
